@@ -21,7 +21,6 @@
 <img width="883" height="518" alt="taskbar" src="https://github.com/user-attachments/assets/9a5eab1d-03ab-4243-a415-09dd08f3e797" />
 
 ###### * Minimize the Spotify window rather than close it to work properly.
-###### * It only works with the Spotify desktop app; the web player is not yet supported.
 
 ## Installation
 
