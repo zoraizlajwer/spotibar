@@ -36,6 +36,17 @@ Select Spotibar skin from the Spotibar folder
 * [ ] Draggable (unchecked) 
 * [ ] Click through (unchecked)
 
+## Fullscreen Games
+
+Spotibar is designed to use `Stay topmost` so it can sit visually on the taskbar. If it appears over fullscreen games, enable Rainmeter Game Mode:
+
+1. Open Rainmeter.
+2. Go to **Manage > Game Mode**.
+3. Enable **Fullscreen games**.
+4. Set **On start** to unload all skins.
+5. Set **On stop** to reload your saved Spotibar layout.
+
+Rainmeter Game Mode is intended for fullscreen games; browser fullscreen behavior may vary.
 
 ## Taskbar Customization
 To achieve the same visual appearance of the taskbar in Windows 11 as shown in the preview image:
