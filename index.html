@@ -121,7 +121,7 @@
         font-size: 3rem;
         font-weight: 800;
         margin-bottom: 20px;
-        line-line-height: 1.2;
+        line-height: 1.2;
       }
 
       .hero p {
@@ -182,7 +182,7 @@
 
       .preview-image {
         width: 100%;
-        max-width: 750px;
+        max-width: 705px;
         height: auto;
         border-radius: 12px;
         box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
@@ -346,6 +346,33 @@
         text-decoration: underline;
       }
 
+      /* Extra visual content showcase block */
+      .showcase-container {
+        padding: 40px 8%;
+        background: var(--bg-dark);
+        border-top: 1px solid var(--border-color);
+        text-align: center;
+      }
+
+      .showcase-container h3 {
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+      }
+
+      .showcase-container p {
+        color: var(--text-gray);
+        margin-bottom: 25px;
+      }
+
+      .taskbar-preview-image {
+        max-width: 100%;
+        width: 883px;
+        height: auto;
+        border-radius: 12px;
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
+        border: 1px solid var(--border-color);
+      }
+
       /* Footer */
       footer {
         padding: 40px 8%;
@@ -371,8 +398,9 @@
       }
 
       .copy {
-        color: #555;
-        font-size: 0.8rem;
+        color: #888;
+        font-size: 0.85rem;
+        line-height: 1.5;
       }
 
       /* Mobile View settings */
@@ -403,7 +431,6 @@
         }
         .preview-image {
           max-width: 100%;
-          max-height: 350px;
           box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
         }
         .preview-image:hover {
@@ -447,8 +474,9 @@
         <ul>
           <li><a href="#features">Features</a></li>
           <li><a href="#setup">Setup</a></li>
+          <li><a href="#showcase">Preview</a></li>
           <li>
-            <a href="https://github.com/zoraizlajwer/spotibar" target="_blank"
+            <a href="https://github.com/ZoraizLajwer/spotibar" target="_blank"
               >GitHub</a
             >
           </li>
@@ -459,19 +487,19 @@
     <section class="hero">
       <div class="hero-left">
         <span class="tag">Rainmeter Skin</span>
-        <h1>Control Spotify from your Taskbar</h1>
+        <h1>Spotibar</h1>
         <p>
-          A clean, interactive media controller skin for Rainmeter. Launch
-          Spotify directly from your taskbar, view beautiful playback summaries,
-          and enjoy continuous dynamic themes.
+          A sleek, dynamic Rainmeter skin designed to seamlessly integrate
+          Spotify playback controls and album-art-based accent coloring into
+          your desktop interface.
         </p>
         <div class="buttons">
           <a
-            href="https://github.com/zoraizlajwer/spotibar"
+            href="https://github.com/ZoraizLajwer/spotibar/releases"
             target="_blank"
             class="btn btn-green"
           >
-            View Project on GitHub
+            Download Releases
           </a>
           <a href="#setup" class="btn btn-outline">Install Guide</a>
         </div>
@@ -479,8 +507,8 @@
 
       <div class="hero-right">
         <img
-          src="image.png"
-          alt="Spotibar Taskbar Preview"
+          src="https://github.com/user-attachments/assets/0f4f5af2-cfbf-4ccd-ac58-d87201d0701c"
+          alt="Spotibar Preview"
           class="preview-image"
         />
       </div>
@@ -490,36 +518,36 @@
       <div class="section-title">
         <h2>Key Features</h2>
         <p>
-          A minimalist skin tailored perfectly to look like a native Windows 11
-          taskbar tool.
+          Packed with smart shortcuts and dynamic media controls built for
+          Windows.
         </p>
       </div>
       <div class="feature-grid">
         <div class="feature-card">
           <div class="card-num">01</div>
-          <h3>Dynamic Accents</h3>
+          <h3>Smart Launch & Minimize</h3>
           <p>
-            Both the circular progress bar around the album art and the song
-            title text dynamically extract and adopt an accent color matching
-            the current track's album cover.
+            Launch Spotify directly from the skin’s Spotify icon. If Spotify
+            closes or isn't running, the skin smoothly minimizes back to the
+            standalone icon.
           </p>
         </div>
         <div class="feature-card">
           <div class="card-num">02</div>
-          <h3>Intelligent UI Layers</h3>
+          <h3>Dynamic Panels & Playback</h3>
           <p>
-            Hovering over the album cover reveals context menus (Controls Panel
-            or Song Info Panel). The skin automatically minimizes back to just a
-            Spotify icon if the media application isn't active.
+            Hovering over the album cover reveals the Controls Panel and Song
+            Info Panel. Fully supports previous track, play/pause, next track,
+            and repeat functions.
           </p>
         </div>
         <div class="feature-card">
           <div class="card-num">03</div>
-          <h3>Spotify Web Support</h3>
+          <h3>Adaptive UI & Gestures</h3>
           <p>
-            Not using the desktop application? Enjoy full functionality inside
-            your web browser by pairing the skin layout with the WebNowPlaying
-            browser extension.
+            Features an animated progress bar and dynamic track titles matching
+            album art colors. Adjust volume via mouse wheel or trackpad swipe,
+            and mute/unmute with a right-click.
           </p>
         </div>
       </div>
@@ -527,10 +555,10 @@
 
     <section class="setup" id="setup">
       <div class="section-title">
-        <h2>How to Install & Optimize</h2>
+        <h2>Installation & Setup Guide</h2>
         <p>
-          Follow these structured configuration steps to anchor Spotibar
-          smoothly down inside your Windows environment.
+          Follow these structured instructions to configure Spotibar smoothly
+          on your system.
         </p>
       </div>
 
@@ -540,10 +568,7 @@
             class="tab-btn active"
             onclick="toggleTab(event, 'rainmeter')"
           >
-            Installation & Layout
-          </button>
-          <button class="tab-btn" onclick="toggleTab(event, 'controls')">
-            Interactive Controls
+            Installation & Settings
           </button>
           <button class="tab-btn" onclick="toggleTab(event, 'taskbar')">
             Taskbar Customization
@@ -552,157 +577,129 @@
 
         <div id="rainmeter" class="setup-body">
           <div class="step">
-            <h4>1. Setup Core Requirements</h4>
+            <h4>1. Core Requirements</h4>
             <p>
-              Ensure you have the standard
-              <a href="https://spotify.com" class="inline-link" target="_blank"
-                >Spotify Desktop application</a
+              Install
+              <a
+                href="https://www.spotify.com/download/windows"
+                class="inline-link"
+                target="_blank"
+                >Spotify for Windows</a
               >
-              installed. You also need
+              and
               <a
                 href="https://rainmeter.net"
                 class="inline-link"
                 target="_blank"
-                >Rainmeter 4.5.18</a
-              >
-              (or newer) running on your PC. To use Spotify Web, download the
-              <a
-                href="https://chromewebstore.google.com/detail/webnowplaying/jfakgfcdgpghbbefmdfjkbdlibjgnbli"
-                class="inline-link"
-                target="_blank"
-                >WebNowPlaying extension</a
-              >.
-            </p>
-          </div>
-          <div class="step">
-            <h4>2. Download and Load Spotibar</h4>
-            <p>
-              Download the official package release from the
+                >Rainmeter</a
+              >. Download the latest release from the
               <a
                 href="https://github.com/ZoraizLajwer/spotibar/releases"
                 class="inline-link"
                 target="_blank"
-                >Spotibar Releases on GitHub</a
-              >. Open Rainmeter, hit refresh, and extract/load the layout.
+                >Spotibar Releases page</a
+              >
+              and double-click to install.
+            </p>
+            <p style="margin-top: 8px; color: var(--text-gray); font-size: 0.9rem;">
+              <em>Note for Spotify Web Users:</em> Install the
+              <a
+                href="https://chromewebstore.google.com/detail/webnowplaying/jfakgfcdgpghbbefmdfjkbdlibjgnbli"
+                class="inline-link"
+                target="_blank"
+                >WebNowPlaying</a
+              >
+              extension. Always minimize the desktop app rather than closing it completely for best background integration.
             </p>
           </div>
           <div class="step">
-            <h4>3. Mandatory Skin Layout Settings</h4>
+            <h4>2. Recommended Skin Layout Settings</h4>
             <p>
-              To keep your navigation locked precisely onto the taskbar frame,
-              configure the loaded skin parameters with these settings:
+              Load the Spotibar skin from your Rainmeter manager and apply these configuration parameters:
             </p>
             <ul>
               <li>
-                <strong>Position:</strong> Change value to
-                <code>Stay topmost</code>
+                <strong>Position:</strong> Set to <code>Stay topmost</code>
               </li>
-              <li><strong>Draggable:</strong> Uncheck this option</li>
-              <li><strong>Click through:</strong> Uncheck this option</li>
+              <li><strong>Draggable:</strong> Uncheck</li>
+              <li><strong>Click through:</strong> Uncheck</li>
             </ul>
           </div>
           <div class="step">
-            <h4>4. Hide During Fullscreen Games</h4>
+            <h4>3. Gaming Mode Configuration</h4>
             <p>
-              Since Spotibar uses <code>Stay topmost</code> to sit visually on
-              the taskbar, it may appear over fullscreen games. To prevent this,
-              open Rainmeter, go to <strong>Manage &gt; Game Mode</strong>,
-              enable <strong>Fullscreen games</strong>, set
-              <strong>On start</strong> to unload all skins, and set
-              <strong>On stop</strong> to reload your saved Spotibar layout.
+              Because Spotibar uses <code>Stay topmost</code> to sit neatly on the taskbar, it may overlay fullscreen games. To prevent this:
             </p>
-            <p>
-              Rainmeter Game Mode is intended for fullscreen games; browser
-              fullscreen behavior may vary.
-            </p>
-          </div>
-        </div>
-
-        <div id="controls" class="setup-body" style="display: none">
-          <div class="step">
-            <h4>Media Playback Triggers</h4>
-            <p>
-              The player handles deep functions instantly. Use
-              <strong>Previous Track</strong>, <strong>Play/Pause</strong>,
-              <strong>Next Track</strong>, or toggle
-              <strong>Repeat</strong> variables using the dedicated visual
-              icons.
-            </p>
-          </div>
-          <div class="step">
-            <h4>Smart Gestures & Clicks</h4>
             <ul>
-              <li>
-                <strong>Open Spotify Window:</strong> Click on the tracking
-                album cover or the track description details panel.
-              </li>
-              <li>
-                <strong>Volume Adjustment:</strong> Scroll your mouse wheel
-                directly over the skin frame, or use a responsive two-finger
-                swipe gesture on a laptop trackpad.
-              </li>
-              <li>
-                <strong>Mute / Unmute:</strong> Simple Right-Click anywhere over
-                the active skin.
-              </li>
+              <li>Open Rainmeter and go to <strong>Manage &gt; Game Mode</strong>.</li>
+              <li>Enable <strong>Fullscreen games</strong>.</li>
+              <li>Set <strong>On start</strong> to <em>Unload all skins</em>.</li>
+              <li>Set <strong>On stop</strong> to <em>Reload saved Spotibar layout</em>.</li>
             </ul>
-          </div>
-          <div class="step">
-            <h4>Important Running Note</h4>
-            <p>
-              Always <em>minimize</em> your core Spotify window to the system
-              tray rather than fully closing out the application box so that
-              data handles stay live.
-            </p>
           </div>
         </div>
 
         <div id="taskbar" class="setup-body" style="display: none">
           <div class="step">
-            <h4>Get the Windows 11 Floating Look</h4>
+            <h4>Achieving the Windows 11 Floating Look</h4>
             <p>
-              To achieve the clean, rounded taskbar segmentation shown in the
-              preview image, follow this optional layout process:
+              To get the customized Windows 11 taskbar task layout shown in the showcase:
             </p>
           </div>
           <div class="step">
-            <h4>1. Download Windhawk</h4>
+            <h4>1. Install Windhawk</h4>
             <p>
-              Install the open-source mod runner
-              <a href="https://windhawk.net" class="inline-link" target="_blank"
+              Download and install
+              <a
+                href="https://windhawk.net/download?version=1.1"
+                class="inline-link"
+                target="_blank"
                 >Windhawk</a
-              >
-              on your system.
+              >.
             </p>
           </div>
           <div class="step">
-            <h4>2. Install Styler Engine</h4>
+            <h4>2. Activate Taskbar Styler</h4>
             <p>
-              Inside the Windhawk app engine catalog, search for and activate
-              the <strong>Windows 11 Taskbar Styler</strong> mod.
+              Within Windhawk, browse and install the <strong>Windows 11 Taskbar Styler</strong> module.
             </p>
           </div>
           <div class="step">
             <h4>3. Apply the Matter Theme</h4>
             <p>
-              Select the preset theme option named <strong>Matter</strong> to
-              break your long taskbar down into the clean modules shown in the
-              preview.
+              Select the <strong>Matter</strong> theme to render your taskbar segmentation style properly.
             </p>
           </div>
         </div>
       </div>
     </section>
 
+    <section class="showcase-container" id="showcase">
+      <h3>Taskbar Integration Preview</h3>
+      <p>Spotibar styled alongside a customized modular Windows taskbar setup.</p>
+      <img
+        src="https://github.com/user-attachments/assets/9a5eab1d-03ab-4243-a415-09dd08f3e797"
+        alt="Taskbar Integration Preview"
+        class="taskbar-preview-image"
+      />
+    </section>
+
     <footer>
       <div class="links">
-        <a href="https://github.com/zoraizlajwer/spotibar" target="_blank"
+        <a
+          href="https://github.com/ZoraizLajwer/spotibar"
+          target="_blank"
           >GitHub Repository</a
+        >
+        <a
+          href="https://github.com/ZoraizLajwer/spotibar/releases"
+          target="_blank"
+          >Releases</a
         >
       </div>
       <p class="copy">
-        &copy; 2026 Spotibar Project. Licensed under Creative Commons
-        Attribution 4.0 International.
+        This project is licensed under the <strong>Creative Commons Attribution 4.0 International License</strong>.<br />
+        &copy; 2026 Spotibar Project. All rights reserved.
       </p>
     </footer>
 
@@ -710,7 +707,6 @@
       // Tab switching function
       function toggleTab(event, tabName) {
         document.getElementById("rainmeter").style.display = "none";
-        document.getElementById("controls").style.display = "none";
         document.getElementById("taskbar").style.display = "none";
 
         const tabs = document.querySelectorAll(".tab-btn");
