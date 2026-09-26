@@ -51,7 +51,7 @@ Because Spotibar uses `Stay topmost` to sit neatly on top of your taskbar, it ma
 To achieve the customized Windows 11 taskbar aesthetic shown in the preview images:
 1. Install [Windhawk](https://windhawk.net/download?version=1.1).
 2. Inside Windhawk, install the **Windows 11 Taskbar Styler** mod.
-3. Apply the **Matter** theme style.
+3. Apply the [Matter](https://github.com/ramensoftware/windows-11-taskbar-styling-guide/blob/main/Themes/Matter/README.md) theme style.
 
 ---
 
