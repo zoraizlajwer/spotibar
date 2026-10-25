@@ -1,6 +1,4 @@
 
-<h1 align="center">Spotibar</h1>
-
 <p align="center">
   Spotify controls right on your Windows taskbar.<br>
   A Rainmeter skin with album-art accent colors, hover panels and an optional audio visualizer.
@@ -29,11 +27,11 @@
 </p>
 
 <p align="center">
-  <img src="Assets/social_preview.png" alt="Spotibar: Spotify controls right on your taskbar" width="80%">
+  <img src="Assets/social_preview.png" alt="Spotibar: Spotify controls right on your taskbar" width="100%">
 </p>
 
 
-# 🎬 See it in action
+## 🎬 See it in action
 
 Every skin starts as a small Spotify icon. When Spotify is running it turns into your album cover, and hovering over it reveals the panels.
 
@@ -48,7 +46,7 @@ Every skin starts as a small Spotify icon. When Spotify is running it turns into
 
 
 
-# 🎨 Skins
+## 🎨 Skins
 
 Spotibar v3.0 ships **six skins**: three layouts, each in a **Light** and a **Dark** theme. A small menu skin lets you load any of them with one click.
 
@@ -56,11 +54,11 @@ Spotibar v3.0 ships **six skins**: three layouts, each in a **Light** and a **Da
 
 ### When Spotify is running
 
-| Layout | What you get | Dark | Light | Hover |
-| --- | --- | :---: | :---: | :---: |
-| **Compact** | Album cover with a progress ring. Hover to show the controls and the song info panel. | <img src="Assets/Running/Compact/Dark%20Compact_default.png" width="420" alt="Dark Compact"> | <img src="Assets/Running/Compact/Light%20Compact_default.png" width="420" alt="Light Compact"> | <img src="Assets/Running/Compact/Dark%20Compact.png" width="420" alt="Dark Hover Compact">
-| **Extended** | Controls always visible next to the cover. Hover to reveal the song info panel. | <img src="Assets/Running/Extended/Dark%20Extended_default.png" width="420" alt="Dark Extended"> | <img src="Assets/Running/Extended/Light%20Extended_default.png" width="420" alt="Light Extended"> | <img src="Assets/Running/Extended/Light%20Extended.png" width="420" alt="Light Extended Hover">
-| **Extended Visualizer** | Everything in Extended plus a ten-bar audio visualizer tinted with the album accent color. Controls stay visible, hover reveals song info. | <img src="Assets/Running/Extended%20Visualizer/Dark%20Extended%20Visualizer_Default.png" width="420" alt="Dark Extended Visualizer"> | <img src="Assets/Running/Extended%20Visualizer/Light%20Extended%20Visualizer_default.png" width="420" alt="Light Extended Visualizer"> | <img src="Assets/Running/Extended%20Visualizer/Dark%20Extended%20Visualizer.png" width="420" alt="Dark Extended Visualizer Hover">
+| Layout | Dark | Light | Hover |
+| --- | :---: | :---: | :---: |
+| **Compact** | <img src="Assets/Running/Compact/Dark%20Compact_default.png" width="420" alt="Dark Compact"> | <img src="Assets/Running/Compact/Light%20Compact_default.png" width="420" alt="Light Compact"> | <img src="Assets/Running/Compact/Dark%20Compact.png" width="420" alt="Dark Hover Compact">
+| **Extended** | <img src="Assets/Running/Extended/Dark%20Extended_default.png" width="420" alt="Dark Extended"> | <img src="Assets/Running/Extended/Light%20Extended_default.png" width="420" alt="Light Extended"> | <img src="Assets/Running/Extended/Light%20Extended.png" width="420" alt="Light Extended Hover">
+| **Extended Visualizer** | <img src="Assets/Running/Extended%20Visualizer/Dark%20Extended%20Visualizer_Default.png" width="420" alt="Dark Extended Visualizer"> | <img src="Assets/Running/Extended%20Visualizer/Light%20Extended%20Visualizer_default.png" width="420" alt="Light Extended Visualizer"> | <img src="Assets/Running/Extended%20Visualizer/Dark%20Extended%20Visualizer.png" width="420" alt="Dark Extended Visualizer Hover">
 
 
 ### When Spotify is not running
@@ -73,13 +71,13 @@ The skin collapses to a Spotify icon. Hover to highlight it in Spotify green, cl
 | **Extended** | <img src="Assets/Not%20running/Extended%20Both/Dark%20Extended%20Both_default.png" width="360" alt="Dark Extended"> | <img src="Assets/Not%20running/Extended%20Both/Light%20Extended%20Both_default.png" width="360" alt="Light Extended"> | <img src="Assets/Not%20running/Extended%20Both/Light%20Extended%20Both_hover.png" width="360" alt="Light Extended Hover">
 | **Extended Visualizer** | <img src="Assets/Not%20running/Extended%20Both/Dark%20Extended%20Both_default.png" width="360" alt="Dark Extended Visualizer"> | <img src="Assets/Not%20running/Extended%20Both/Light%20Extended%20Both_default.png" width="360" alt="Light Extended Visualizer"> | <img src="Assets/Not%20running/Extended%20Both/Dark%20Extended%20Both_hover.png" width="360" alt="Dark Extended Visualizer Hover">
 
-# 🖌️ Skin Menu
+## 🖌️ Skin Menu
 
 Click any skin in the menu to toggle it on or off.
 
-<p align="center"><img src="Assets/menu_preview.png" alt="Spotibar skin menu" width="740"></p>
+<p align="center"><img src="Assets/menu_preview.png" alt="Spotibar skin menu" width="540"></p>
 
-# ✨ Features
+## ✨ Features
 
 - **Smart launch and minimize.** Start Spotify from the skin's icon. When Spotify closes, the skin folds back to the standalone icon.
 - **Dynamic panels.** Hovering over the album cover reveals the **controls panel** and the **song info panel** (depends on the layout).
@@ -92,10 +90,10 @@ Click any skin in the menu to toggle it on or off.
 
 ### Control Spotify without switching windows
 
-<p align="center"><img src="Assets/function_preview.png" alt="Scroll to change volume, right-click to mute, two-finger swipe for trackpads" width="55%"></p>
+<p align="center"><img src="Assets/function_preview.png" alt="Scroll to change volume, right-click to mute, two-finger swipe for trackpads" width="65%"></p>
 
 
-# 🛠️ Installation
+## 🛠️ Installation
 
 ### Requirements
 
@@ -120,11 +118,9 @@ The two plugins Spotibar needs (**WebNowPlaying** and **Chameleon**) are bundled
 
 Right-click the skin (or open it from the Rainmeter manager) and set:
 
-| Setting | Value |
-| --- | --- |
-| Position | **Stay topmost** |
-| Draggable | **Unchecked** |
-| Click through | **Unchecked** |
+- Position:  `Stay topmost`
+- [ ] Draggable (Unchecked)
+- [ ] Click through (Unchecked) 
 
 Then drag the skin onto your taskbar where you want it.
 
@@ -139,7 +135,7 @@ Because Spotibar stays on top of the taskbar, it can overlap fullscreen games. U
 
 
 
-# 🪟 Taskbar Preview
+## 🪟 Taskbar Preview
 
 <!-- The previews in this repo use a restyled Windows 11 taskbar so the skin blends in. -->
 
@@ -150,7 +146,7 @@ Because Spotibar stays on top of the taskbar, it can overlap fullscreen games. U
 3. Apply the [Matter](https://github.com/ramensoftware/windows-11-taskbar-styling-guide/blob/main/Themes/Matter/README.md) theme. -->
 
 
-# 🧰 Troubleshooting
+## 🧰 Troubleshooting
 
 **The skin only shows the Spotify icon while music is playing.**
 Make sure you are using the Spotify desktop app, or the web player with the WebNowPlaying extension installed. If you use the web player, check that the extension is enabled for open.spotify.com.
@@ -169,17 +165,17 @@ Accent colors come from the album cover. When a cover has very little color, the
 
 
 
-# 🤝 Contributing
+## 🤝 Contributing
 
-Bug reports, feature ideas and pull requests are welcome. Open an [issue](https://github.com/ZoraizLajwer/spotibar/issues) or send a pull request.
+Bug reports, feature ideas and pull requests are welcome. Open an [issue](https://github.com/ZoraizLajwer/spotibar/issues) or send a [pull request](https://github.com/zoraizlajwer/spotibar/pulls).
 
-# 📄 License
+## 📄 License
 
 Spotibar is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). You can share and adapt it as long as you give appropriate credit.
 
 The Montserrat font is licensed under the SIL Open Font License 1.1.
 
-# 🙏 Credits
+## 🙏 Credits
 
 Made by [Zoraiz Lajwer](https://github.com/zoraizlajwer). Built on [Rainmeter](https://rainmeter.net) with the WebNowPlaying and Chameleon plugins.
 
