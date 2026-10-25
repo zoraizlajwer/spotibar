@@ -92,8 +92,7 @@ Click any skin in the menu to toggle it on or off.
 
 <p align="center"><img src="Assets/function_preview.png" alt="Scroll to change volume, right-click to mute, two-finger swipe for trackpads" width="65%"></p>
 
-
-## 🛠️ Installation
+## 🧰 Installation
 
 ### Requirements
 
@@ -146,7 +145,7 @@ Because Spotibar stays on top of the taskbar, it can overlap fullscreen games. U
 3. Apply the [Matter](https://github.com/ramensoftware/windows-11-taskbar-styling-guide/blob/main/Themes/Matter/README.md) theme. -->
 
 
-## 🧰 Troubleshooting
+## 🛠️ Troubleshooting
 
 **The skin only shows the Spotify icon while music is playing.**
 Make sure you are using the Spotify desktop app, or the web player with the WebNowPlaying extension installed. If you use the web player, check that the extension is enabled for open.spotify.com.
