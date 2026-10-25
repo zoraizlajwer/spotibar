@@ -111,7 +111,7 @@ The two plugins Spotibar needs (**WebNowPlaying** and **Chameleon**) are bundled
 3. Double-click the file and choose **Install**. The skin menu loads automatically.
 4. Pick a skin from the menu. Start Spotify and play something.
 
-> **Using Spotify in the browser?** Install the [WebNowPlaying browser extension](https://chromewebstore.google.com/detail/webnowplaying/jfakgfcdgpghbbefmdfjkbdlibjgnbli). Desktop app is prefered.
+> **Using Spotify in the browser?** Install the [WebNowPlaying browser extension](https://chromewebstore.google.com/detail/webnowplaying/jfakgfcdgpghbbefmdfjkbdlibjgnbli). Desktop app is preferred.
 
 ### Recommended skin settings
 
@@ -157,8 +157,7 @@ Set up Game Mode as described in the [Gaming mode](#gaming-mode) section above.
 This happens sometimes, refresh the skin or change the song.
 
 - **Skin is not working properly with Web Spotify:**
-While using the skin with Web Spotify, Song cover, progress bar and controls does not work. I didn't find any fix for this issue
-
+While using the skin with the Spotify web player, the song cover, progress bar, and controls do not work. I haven't found any fix for this issue.
 
 ## 🤝 Contributing
 
