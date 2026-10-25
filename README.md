@@ -4,15 +4,17 @@
 </p>
 
 
-
 <p align="center">
   <a href="https://github.com/ZoraizLajwer/spotibar/releases/latest">
-    <img src="https://img.shields.io/github/v/release/ZoraizLajwer/spotibar?display_name=tag&style=flat&label=LATEST%20RELEASE&logo=github&logoColor=white&labelColor=202127&color=1ED760" alt="Latest Spotibar release">
+    <img src="https://img.shields.io/badge/LATEST%20RELEASE-v1.0.0-1ED760?style=for-the-badge&logo=github&logoColor=white&labelColor=202127" alt="Latest Spotibar release">
   </a>
-  <img src="https://img.shields.io/badge/RAINMETER-4.5.28%2B-1689FC?style=flat&labelColor=202127" alt="Requires Rainmeter 4.5.28 or newer">
-  <img src="https://img.shields.io/badge/WINDOWS-10%20%7C%2011-4C9AFF?style=flat&logo=windows11&logoColor=white&labelColor=202127" alt="Windows 10 and 11">
+  <a href="https://zoraizlajwer.github.io/spotibar/">
+    <img src="https://img.shields.io/badge/SPOTIBAR-LIVE%20DEMO-1DB954?style=for-the-badge&logo=spotify&logoColor=white&labelColor=202127" alt="Spotibar live demo">
+  </a>
+  <img src="https://img.shields.io/badge/RAINMETER-4.5.28%2B-1689FC?style=for-the-badge&labelColor=202127" alt="Requires Rainmeter 4.5.28 or newer">
+  <img src="https://img.shields.io/badge/WINDOWS-10%20%7C%2011-4C9AFF?style=for-the-badge&logo=windows11&logoColor=white&labelColor=202127" alt="Windows 10 and 11">
   <a href="https://creativecommons.org/licenses/by/4.0/">
-    <img src="https://img.shields.io/badge/LICENSE-CC%20BY%204.0-AEB4C0?style=flat&logo=creativecommons&logoColor=white&labelColor=202127" alt="Creative Commons Attribution 4.0 license">
+    <img src="https://img.shields.io/badge/LICENSE-CC%20BY%204.0-AEB4C0?style=for-the-badge&logo=creativecommons&logoColor=white&labelColor=202127" alt="Creative Commons Attribution 4.0 license">
   </a>
 </p>
 
