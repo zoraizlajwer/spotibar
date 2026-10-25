@@ -1,6 +1,5 @@
 
 <p align="center">
-  Spotify controls right on your Windows taskbar.<br>
   A Rainmeter skin with album-art accent colors, hover panels and an optional audio visualizer.
 </p>
 
