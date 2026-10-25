@@ -111,7 +111,7 @@ The two plugins Spotibar needs (**WebNowPlaying** and **Chameleon**) are bundled
 3. Double-click the file and choose **Install**. The skin menu loads automatically.
 4. Pick a skin from the menu. Start Spotify and play something.
 
-> **Using Spotify in the browser?** Install the [WebNowPlaying browser extension](https://chromewebstore.google.com/detail/webnowplaying/jfakgfcdgpghbbefmdfjkbdlibjgnbli). Keep the Spotify desktop app minimized instead of fully closed so the skin stays active.
+> **Using Spotify in the browser?** Install the [WebNowPlaying browser extension](https://chromewebstore.google.com/detail/webnowplaying/jfakgfcdgpghbbefmdfjkbdlibjgnbli). Desktop app is prefered.
 
 ### Recommended skin settings
 
@@ -147,21 +147,17 @@ Because Spotibar stays on top of the taskbar, it can overlap fullscreen games. U
 
 ## 🛠️ Troubleshooting
 
-**The skin only shows the Spotify icon while music is playing.**
-Make sure you are using the Spotify desktop app, or the web player with the WebNowPlaying extension installed. If you use the web player, check that the extension is enabled for open.spotify.com.
-
-**The visualizer does not move.**
-The visualizer reads your default Windows audio output. Check that Spotify is playing through that device.
-
-**Buttons do nothing.**
+- **Buttons do nothing:**
 Check that **Click through** is unchecked in the skin's settings, then refresh the skin.
 
-**The skin sits on top of a fullscreen game.**
+- **The skin sits on top of a fullscreen game:**
 Set up Game Mode as described in the [Gaming mode](#gaming-mode) section above.
 
-**The accent color looks wrong or does not change.**
-Accent colors come from the album cover. When a cover has very little color, the skin falls back to a neutral tone.
+- **The accent color/cover looks wrong or does not change:**
+This happens sometimes, refresh the skin or change the song.
 
+- **Skin is not working properly with Web Spotify:**
+While using the skin with Web Spotify, Song cover, progress bar and controls does not work. I didn't find any fix for this issue
 
 
 ## 🤝 Contributing
