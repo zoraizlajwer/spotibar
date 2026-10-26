@@ -159,15 +159,17 @@ h2{font-size:clamp(1.9rem,3.6vw,2.8rem);line-height:1.12;font-weight:800;letter-
 /* controls */
 /* .gestures{display:grid;grid-template-columns:1.6fr 1fr;gap:34px;align-items:center} */
 .gestures {  display: flex;  flex-direction: column;  gap: 34px;  align-items: center; }
-.gestures .shot{border-radius:var(--radius);overflow:hidden;border:1px solid var(--line-2);box-shadow:var(--shadow)}
+.gestures .shot{border-radius:var(--radius);overflow:hidden;border:1px solid var(--line-2);box-shadow:var(--shadow);width:100%}
+.gestures .shot img{width:100%}
 .glist{display:grid;gap:14px;  width: 52%;}
 .grow{display:flex;gap:16px;padding:18px;border-radius:16px;background:var(--surface);border:1px solid var(--line)}
 .grow .ic{flex:none;width:44px;height:44px;border-radius:12px;background:var(--glow);color:var(--green);display:grid;place-items:center}
 .grow .ic svg{width:22px;height:22px}
+.grow>div:last-child{min-width:0}
 .grow h3{font-size:.98rem;margin-bottom:2px}.grow p{font-size:.86rem;color:var(--muted)}
 .btnrow{display:flex;flex-wrap:wrap;gap:12px;margin-top:10px; justify-content: center; /* Centers the items horizontally */
   align-items: center;  }
-.kbd{display:flex;align-items:center;gap:10px;font-size:.84rem;color:var(--muted);padding:10px 14px;border:1px dashed var(--line-2);border-radius:12px}
+.kbd{display:block;text-align:center;font-size:.84rem;color:var(--muted);padding:10px 14px;border:1px dashed var(--line-2);border-radius:12px}
 .kbd b{color:var(--text)}
 
 /* compare */
@@ -252,7 +254,15 @@ footer .legal{margin-top:34px;padding-top:22px;border-top:1px solid var(--line);
   .menu-btn{display:grid}
   .nav .btn-sm{display:none}
 }
+@media (max-width:980px){
+  .glist{width:100%}
+  .btnrow{width:100%}
+  .btnrow .kbd{flex:1 1 220px}
+  .nav.scrolled{background:color-mix(in srgb,var(--bg) 95%,transparent)}
+}
 @media (max-width:640px){
+  .grow{padding:16px;gap:14px;align-items:center}
+  .grow .ic{width:40px;height:40px}
   .features{grid-template-columns:1fr}
   .thumbs{grid-template-columns:repeat(3,1fr)}
   .hero{padding-top:118px}
@@ -298,7 +308,7 @@ footer .legal{margin-top:34px;padding-top:22px;border-top:1px solid var(--line);
       <p class="tag rv">Spotify controls, right on your taskbar.</p>
       <p class="sub rv">Spotibar is a Rainmeter skin that puts Spotify playback controls, album-art accent colors and an audio visualizer on your Windows taskbar. Six skins, Light and Dark.</p>
       <div class="cta rv">
-        <a class="btn btn-primary" href="https://github.com" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 20h16"/></svg>Download for Rainmeter</a>
+        <a class="btn btn-primary" href="https://github.com/zoraizlajwer/spotibar/releases/download/v3.0/Spotibar_v3.0.rmskin" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 20h16"/></svg>Download for Rainmeter</a>
         <a class="btn btn-ghost" href="#skins"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg>Explore skins</a>
       </div>
       <div class="facts rv">
